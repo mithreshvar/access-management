@@ -33,7 +33,7 @@ function App() {
                             path: ":id",
                             element: <UserDetail />,
                             loader: async ({ request, params }) => {
-                                return data.users.find(user => user.id == params.id);
+                                return data.users.find(user => user.id == params.id) ?? null;
                             },
                         }
                     ]
