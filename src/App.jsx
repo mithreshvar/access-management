@@ -4,6 +4,7 @@ import Users from "./components/User/Users";
 import NewUser from "./components/User/NewUser";
 import UserDetail from "./components/User/UserDetail";
 import Roles from "./components/Role/Roles";
+import data from "./data/data.json";
 
 function App() {
 
@@ -30,7 +31,10 @@ function App() {
                         },
                         {
                             path: ":id",
-                            element: <UserDetail />
+                            element: <UserDetail />,
+                            loader: async ({ request, params }) => {
+                                return data.users.find(user => user.id == params.id);
+                            },
                         }
                     ]
                 },
