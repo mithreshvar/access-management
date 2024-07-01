@@ -1,7 +1,7 @@
 import { Navigate, RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./Home";
 import Users from "./components/User/Users";
-import NewUser from "./components/User/NewUser";
+import NewUserOrEdit from "./components/User/NewUserOrEdit";
 import UserDetail from "./components/User/UserDetail";
 import Roles from "./components/Role/Roles";
 import data from "./data/data.json";
@@ -34,7 +34,14 @@ function App() {
                         },
                         {
                             path: "new",
-                            element: <NewUser />
+                            element: <NewUserOrEdit />,
+                        },
+                        {
+                            path: "edit/:id",
+                            element: <NewUserOrEdit />,
+                            loader: async ({ request, params }) => {
+                                return data.users.find(user => user.id == params.id) ?? null;
+                            }
                         },
                         {
                             path: ":id",

@@ -14,7 +14,7 @@ const UserDetail = () => {
     }
 
     return (
-        <div className="flex justify-center items-center px-4">
+        <div className="flex justify-center items-center px-4 h-full">
             <div className="flex flex-col w-full py-3 px-6 gap-10">
                 <div className="flex w-full justify-between items-center">
                     <h1 className="text-3xl font-bold text-[#111827]">{user.name}</h1>
