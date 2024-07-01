@@ -4,7 +4,7 @@
         {
             "id": 1,
             "name": "Account Manager",
-            "description": "The Account Manager is responsible for managing and nurturing relationships with clients. They act as the primary point of contact for customers, ensuring their needs are met and they are satisfied with the company's products or services. The Account Manager oversees the account management team, develops strategic plans to enhance client relationships, and works to increase sales and profitability by upselling and cross-selling. They must possess strong communication, negotiation, and problem-solving skills to handle client inquiries, resolve issues, and provide exceptional customer service.",
+            "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
             "accesses": [
                 {
                     "module": "Module 1",
