@@ -47,7 +47,12 @@ function App() {
                             path: ":id",
                             element: <UserDetail />,
                             loader: async ({ request, params }) => {
-                                return data.users.find(user => user.id == params.id) ?? null;
+                                const user = data.users.find(user => user.id == params.id) ?? null;
+                                if (!user) {
+                                    return null;
+                                }
+                                user["accesses"] = data.roles.find(role => role.name == user.role).accesses;
+                                return user;
                             },
                         }
                     ]
