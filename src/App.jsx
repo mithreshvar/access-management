@@ -80,6 +80,9 @@ function App() {
                         {
                             path: "edit/:id",
                             element: <NewRoleOrEdit />,
+                            loader: async ({ request, params }) => {
+                                return data.roles.find(role => role.id == params.id) ?? null;
+                            }
                         },
                         {
                             path: ":id",
