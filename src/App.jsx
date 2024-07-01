@@ -1,9 +1,9 @@
 import { Navigate, RouterProvider, createBrowserRouter } from "react-router-dom";
 import Home from "./Home";
-import Users from "./Users";
-import NewUser from "./NewUser";
-import UserDetail from "./UserDetail";
-import Roles from "./Roles";
+import Users from "./components/User/Users";
+import NewUser from "./components/User/NewUser";
+import UserDetail from "./components/User/UserDetail";
+import Roles from "./components/Role/Roles";
 
 function App() {
 
