@@ -2,6 +2,7 @@
     {
         "name": "John Doe",
         "role": "Account Manager",
-        "checked": false
+        "checked": false,
+        "email": "jhondoe@gmail.com"
     }
 ]
