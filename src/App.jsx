@@ -20,6 +20,13 @@ function App() {
                 {
                     path: "users",
                     element: <Users />,
+                    loader: async ({ request, params }) => {
+                        return data.users.map(user => ({
+                            id: user.id,
+                            name: user.name,
+                            role: user.role
+                        }));
+                    },
                     children: [
                         {
                             index: true,

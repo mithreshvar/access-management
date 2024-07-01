@@ -3,6 +3,7 @@ import { styled } from '@mui/material/styles';
 import Switch from '@mui/material/Switch';
 import { BsThreeDotsVertical } from 'react-icons/bs';
 import { MdOutlineModeEdit } from 'react-icons/md';
+import { useLoaderData, useNavigate } from 'react-router-dom';
 
 const Android12Switch = styled(Switch)(({ theme }) => ({
     padding: 8,
@@ -25,28 +26,19 @@ const Android12Switch = styled(Switch)(({ theme }) => ({
     },
 }));
 
-function User({ role }) {
+export default function UserListCell({ name, role, id }) {
+
+    const navigate = useNavigate();
+
     return (
-        <div className="w-full flex justify-between items-center">
-            <h5>Jhon Doe</h5>
-            <h6>Role-{role}</h6>
-            <div className='flex items-center justify-center gap-x-[5px]'>
+        <div className="w-full flex justify-between items-center px-[24px] py-[20px] hover:bg-[#D5E6FB2B]">
+            <h5 className='w-[40%] cursor-pointer'  onClick={() => navigate(`/users/${id}`, { replace: true })} >{name}</h5>
+            <h6 className='w-[40%]'>Role - {role}</h6>
+            <div className='w-[20%] flex items-center justify-center gap-x-[7px]'>
                 <Android12Switch />
-                <MdOutlineModeEdit />
-                <BsThreeDotsVertical />
+                <MdOutlineModeEdit className='cursor-pointer shrink-0' />
+                <BsThreeDotsVertical className='cursor-pointer shrink-0'/>
             </div>
         </div>
     )
 }
-
-function UserList() {
-    return (
-        <div>
-            <User role={"Job post Manager"} />
-            <User role={"Account Manager"} />
-            <User role={"JD Manager"} />
-        </div>
-    )
-}
-
-export default UserList
