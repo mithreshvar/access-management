@@ -2,6 +2,7 @@
 
     "roles": [
         {
+            "id": 1,
             "name": "Account Manager",
             "description": "The Account Manager is responsible for managing and nurturing relationships with clients. They act as the primary point of contact for customers, ensuring their needs are met and they are satisfied with the company's products or services. The Account Manager oversees the account management team, develops strategic plans to enhance client relationships, and works to increase sales and profitability by upselling and cross-selling. They must possess strong communication, negotiation, and problem-solving skills to handle client inquiries, resolve issues, and provide exceptional customer service.",
             "accesses": [
@@ -20,6 +21,7 @@
             ]
         },
         {
+            "id": 2,
             "name": "Project Manager",
             "description": "The Project Manager is responsible for planning, executing, and closing projects. They define project scope, goals, and deliverables, and develop comprehensive project plans that include timelines, budgets, and resource allocation. The Project Manager coordinates the efforts of team members and third-party contractors or consultants to deliver projects according to plan. They monitor and report on the progress of the project, manage changes to the project scope and schedule, and ensure that projects are completed on time, within budget, and to the specified quality standards.",
             "accesses": [
@@ -38,6 +40,7 @@
             ]
         },
         {
+            "id": 3,
             "name": "Software Engineer",
             "description": "The Software Engineer is responsible for designing, developing, and maintaining software applications. They work closely with stakeholders to gather requirements, create technical specifications, and develop software solutions that meet business needs. Software Engineers write clean, scalable, and efficient code, and they are proficient in various programming languages and development tools. They also perform testing and debugging to ensure the quality and functionality of the software, and they continuously improve the software development process through code reviews, optimization, and staying updated with the latest industry trends and technologies.",
             "accesses": [
@@ -56,6 +59,7 @@
             ]
         },
         {
+            "id": 4,
             "name": "Quality Assurance",
             "description": "The Quality Assurance (QA) specialist is responsible for ensuring that products and services meet the required quality standards before they reach the customer. They develop and implement quality assurance policies and procedures, conduct audits, and perform various tests to identify defects and areas for improvement. QA specialists work closely with development teams to provide feedback and ensure that any issues are resolved promptly. They also document and track quality metrics, create detailed reports, and continuously seek ways to enhance the quality control process and overall product quality.",
             "accesses": [
@@ -74,6 +78,7 @@
             ]
         },
         {
+            "id": 5,
             "name": "Business Analyst",
             "description": "The Business Analyst is responsible for analyzing business processes and identifying opportunities for improvement. They work with stakeholders to gather and document requirements, create detailed business analysis, and identify solutions that align with business objectives. Business Analysts use data analysis to make informed recommendations and develop strategies to enhance efficiency and effectiveness. They also facilitate communication between business units and technical teams to ensure that solutions are implemented successfully and meet the needs of the organization.",
             "accesses": [
@@ -92,6 +97,7 @@
             ]
         },
         {
+            "id": 6,
             "name": "Marketing Manager",
             "description": "The Marketing Manager is responsible for developing and executing marketing strategies to promote the company's products or services. They conduct market research to identify target audiences, analyze market trends, and develop marketing campaigns that increase brand awareness and drive sales. Marketing Managers oversee the creation of marketing materials, manage social media and digital marketing efforts, and coordinate with sales teams to align marketing strategies with business goals. They also track and analyze the performance of marketing campaigns, make data-driven decisions, and adjust strategies to optimize results.",
             "accesses": [
@@ -110,6 +116,7 @@
             ]
         },
         {
+            "id": 7,
             "name": "HR Manager",
             "description": "The HR Manager is responsible for overseeing the human resources functions within the organization. They manage recruitment, employee relations, performance management, and compliance with labor laws and regulations. HR Managers develop and implement HR policies and procedures, handle employee benefits and compensation, and coordinate training and development programs. They play a key role in fostering a positive work environment, resolving workplace conflicts, and ensuring that the organization attracts and retains top talent.",
             "accesses": [
@@ -128,6 +135,7 @@
             ]
         },
         {
+            "id": 8,
             "name": "Sales Manager",
             "description": "The Sales Manager is responsible for leading the sales team and driving the company's sales efforts. They develop sales strategies, set sales targets, and monitor the performance of sales representatives to ensure that goals are met. Sales Managers analyze sales data, identify market opportunities, and create action plans to increase sales and revenue. They also provide coaching and training to sales staff, build and maintain customer relationships, and collaborate with marketing and product development teams to align sales strategies with overall business objectives.",
             "accesses": [
@@ -146,6 +154,7 @@
             ]
         },
         {
+            "id": 9,
             "name": "Product Manager",
             "description": "The Product Manager is responsible for the development and lifecycle management of the company's products. They gather and prioritize product requirements, define the product vision, and work closely with engineering, sales, and marketing teams to deliver successful products. Product Managers conduct market research, analyze competitive products, and identify customer needs to inform product development. They also develop product roadmaps, create and maintain product documentation, and ensure that products are delivered on time and meet the desired quality standards.",
             "accesses": [
@@ -164,6 +173,7 @@
             ]
         },
         {
+            "id": 10,
             "name": "UX Designer",
             "description": "The UX Designer is responsible for creating user-centered designs that enhance the user experience of the company's products or services. They conduct user research, create user personas, and develop wireframes, prototypes, and high-fidelity designs. UX Designers collaborate with product managers, developers, and other stakeholders to ensure that designs are aligned with business goals and technical constraints. They also conduct usability testing, gather feedback, and iterate on designs to improve usability, accessibility, and overall user satisfaction.",
             "accesses": [
