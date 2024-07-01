@@ -2,11 +2,9 @@
 
 import { useLoaderData, useParams } from "react-router-dom";
 
-const NewUser = () => {
+const NewUser = ({ route = 'users' }) => {
     const user = useLoaderData();
     const { id } = useParams();
-    //get current route like last part of the URL
-    const route = window.location.pathname.split("/").pop();
     if (route === "new") {
         return (
         <div>New User</div>

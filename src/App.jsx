@@ -36,7 +36,7 @@ function App() {
                         },
                         {
                             path: "new",
-                            element: <NewUserOrEdit />,
+                            element: <NewUserOrEdit route="new" />,
                         },
                         {
                             path: "edit/:id",
@@ -75,7 +75,7 @@ function App() {
                         },
                         {
                             path: "new",
-                            element: <NewRoleOrEdit />,
+                            element: <NewRoleOrEdit route="new"/>,
                         },
                         {
                             path: "edit/:id",
