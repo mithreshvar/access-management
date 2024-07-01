@@ -22,7 +22,7 @@ const Roles = () => {
                     }
                 </div>
             </div>
-            <div className="w-[2px] bg-[#E5E7EB]" />
+            <div className="w-[2px] bg-[#E5E7EB] mt-[40px]" />
             <div className="w-1/2">
                 <Outlet />
             </div>
