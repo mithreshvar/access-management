@@ -14,8 +14,8 @@ const UserDetail = () => {
     }
 
     return (
-        <div className="flex justify-center items-center px-4 h-full">
-            <div className="flex flex-col w-full py-3 px-6 gap-10">
+        <div className="flex justify-center items-center h-full">
+            <div className="flex flex-col w-full gap-10">
                 <div className="flex w-full justify-between items-center">
                     <h1 className="text-3xl font-bold text-[#111827]">{user.name}</h1>
                     <button className="h-[50px] w-[114px] border border-[#D1D5DB] text-[#374151] font-medium rounded-[6px] flex justify-center items-center gap-3">Edit <MdModeEditOutline className="text-[#6B7280] text-xl" /> </button>

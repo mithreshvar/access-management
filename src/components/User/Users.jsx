@@ -8,7 +8,7 @@ const Users = () => {
     const userList = useLoaderData();
 
     return (
-        <div className='flex'>
+        <div className='h-full flex gap-x-[40px]'>
             <div className="w-1/2 text-lg flex flex-col gap-y-[58px]">
                 <div className="flex justify-between items-center py-[27px] px-[24px] gap-x-[16px] bg-[#D5E6FB2B]">
                     <p className=" font-medium  ">All Users</p>
@@ -22,6 +22,7 @@ const Users = () => {
                     }
                 </div>
             </div>
+            <div className="w-[2px] bg-[#E5E7EB]" />
             <div className="w-1/2">
                 <Outlet />
             </div>
