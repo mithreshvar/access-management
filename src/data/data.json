@@ -1,0 +1,228 @@
+{
+    "all_roles": [
+        "Account Manager",
+        "Project Manager",
+        "Software Engineer",
+        "Quality Assurance",
+        "Business Analyst",
+        "Marketing Manager",
+        "HR Manager",
+        "Sales Manager",
+        "Product Manager",
+        "UX Designer"
+    ],
+    "users": [
+        {
+            "name": "John Doe",
+            "role": "Account Manager",
+            "checked": false,
+            "email": "johndoe@gmail.com",
+            "phone": "1234567890",
+            "accesses": [
+                {
+                    "module": "Module 1",
+                    "access": "Read/ View only"
+                },
+                {
+                    "module": "Module 2",
+                    "access": "CRUD"
+                },
+                {
+                    "module": "Module 3",
+                    "access": "Read/ View only"
+                }
+            ]
+        },
+        {
+            "name": "Jane Smith",
+            "role": "Project Manager",
+            "checked": false,
+            "email": "janesmith@gmail.com",
+            "phone": "0987654321",
+            "accesses": [
+                {
+                    "module": "Module 1",
+                    "access": "CRUD"
+                },
+                {
+                    "module": "Module 2",
+                    "access": "Read/ View only"
+                },
+                {
+                    "module": "Module 3",
+                    "access": "CRUD"
+                }
+            ]
+        },
+        {
+            "name": "Robert Brown",
+            "role": "Software Engineer",
+            "checked": false,
+            "email": "robertbrown@gmail.com",
+            "phone": "1122334455",
+            "accesses": [
+                {
+                    "module": "Module 1",
+                    "access": "Read/ View only"
+                },
+                {
+                    "module": "Module 2",
+                    "access": "Read/ View only"
+                },
+                {
+                    "module": "Module 3",
+                    "access": "CRUD"
+                }
+            ]
+        },
+        {
+            "name": "Emily Johnson",
+            "role": "Quality Assurance",
+            "checked": false,
+            "email": "emilyjohnson@gmail.com",
+            "phone": "2233445566",
+            "accesses": [
+                {
+                    "module": "Module 1",
+                    "access": "CRUD"
+                },
+                {
+                    "module": "Module 2",
+                    "access": "Read/ View only"
+                },
+                {
+                    "module": "Module 3",
+                    "access": "Read/ View only"
+                }
+            ]
+        },
+        {
+            "name": "Michael Davis",
+            "role": "Business Analyst",
+            "checked": false,
+            "email": "michaeldavis@gmail.com",
+            "phone": "3344556677",
+            "accesses": [
+                {
+                    "module": "Module 1",
+                    "access": "Read/ View only"
+                },
+                {
+                    "module": "Module 2",
+                    "access": "CRUD"
+                },
+                {
+                    "module": "Module 3",
+                    "access": "CRUD"
+                }
+            ]
+        },
+        {
+            "name": "Sarah Wilson",
+            "role": "Marketing Manager",
+            "checked": false,
+            "email": "sarahwilson@gmail.com",
+            "phone": "4455667788",
+            "accesses": [
+                {
+                    "module": "Module 1",
+                    "access": "CRUD"
+                },
+                {
+                    "module": "Module 2",
+                    "access": "Read/ View only"
+                },
+                {
+                    "module": "Module 3",
+                    "access": "Read/ View only"
+                }
+            ]
+        },
+        {
+            "name": "David Clark",
+            "role": "HR Manager",
+            "checked": false,
+            "email": "davidclark@gmail.com",
+            "phone": "5566778899",
+            "accesses": [
+                {
+                    "module": "Module 1",
+                    "access": "Read/ View only"
+                },
+                {
+                    "module": "Module 2",
+                    "access": "CRUD"
+                },
+                {
+                    "module": "Module 3",
+                    "access": "CRUD"
+                }
+            ]
+        },
+        {
+            "name": "Laura Martin",
+            "role": "Sales Manager",
+            "checked": false,
+            "email": "lauramartin@gmail.com",
+            "phone": "6677889900",
+            "accesses": [
+                {
+                    "module": "Module 1",
+                    "access": "CRUD"
+                },
+                {
+                    "module": "Module 2",
+                    "access": "Read/ View only"
+                },
+                {
+                    "module": "Module 3",
+                    "access": "Read/ View only"
+                }
+            ]
+        },
+        {
+            "name": "James Lee",
+            "role": "Product Manager",
+            "checked": false,
+            "email": "jameslee@gmail.com",
+            "phone": "7788990011",
+            "accesses": [
+                {
+                    "module": "Module 1",
+                    "access": "Read/ View only"
+                },
+                {
+                    "module": "Module 2",
+                    "access": "CRUD"
+                },
+                {
+                    "module": "Module 3",
+                    "access": "CRUD"
+                }
+            ]
+        },
+        {
+            "name": "Anna King",
+            "role": "UX Designer",
+            "checked": false,
+            "email": "annaking@gmail.com",
+            "phone": "8899001122",
+            "accesses": [
+                {
+                    "module": "Module 1",
+                    "access": "CRUD"
+                },
+                {
+                    "module": "Module 2",
+                    "access": "Read/ View only"
+                },
+                {
+                    "module": "Module 3",
+                    "access": "Read/ View only"
+                }
+            ]
+        }
+    ]
+}
+
+
