@@ -5,6 +5,8 @@ import NewUserOrEdit from "./components/User/NewUserOrEdit";
 import UserDetail from "./components/User/UserDetail";
 import Roles from "./components/Role/Roles";
 import data from "./data/data.json";
+import RoleDetail from "./components/Role/RoleDetail";
+import NewRoleOrEdit from "./components/Role/NewRoleOrEdit";
 
 function App() {
 
@@ -59,8 +61,26 @@ function App() {
                 },
                 {
                     path: "roles",
-                    element: <Roles />
-                }
+                    element: <Roles />,
+                    children: [
+                        {
+                            index: true,
+                            element: <Navigate to="1" replace={true} />
+                        },
+                        {
+                            path: "new",
+                            element: <NewRoleOrEdit />,
+                        },
+                        {
+                            path: "edit/:id",
+                            element: <NewRoleOrEdit />,
+                        },
+                        {
+                            path: ":id",
+                            element: <RoleDetail />,
+                        }
+                    ]
+                },
             ]
         }
     ])
