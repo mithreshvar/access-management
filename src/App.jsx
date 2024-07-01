@@ -62,6 +62,12 @@ function App() {
                 {
                     path: "roles",
                     element: <Roles />,
+                    loader: async ({ request, params }) => {
+                        return data.roles.map(role => ({
+                            id: role.id,
+                            name: role.name,
+                        }));
+                    },
                     children: [
                         {
                             index: true,
