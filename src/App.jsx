@@ -78,6 +78,9 @@ function App() {
                         {
                             path: ":id",
                             element: <RoleDetail />,
+                            loader: async ({ request, params }) => {
+                                return data.roles.find(role => role.id == params.id) ?? null;
+                            }
                         }
                     ]
                 },
