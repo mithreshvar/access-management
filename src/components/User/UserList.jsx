@@ -1,6 +1,8 @@
 
 import { styled } from '@mui/material/styles';
 import Switch from '@mui/material/Switch';
+import { BsThreeDotsVertical } from 'react-icons/bs';
+import { MdOutlineModeEdit } from 'react-icons/md';
 
 const Android12Switch = styled(Switch)(({ theme }) => ({
     padding: 8,
@@ -28,8 +30,10 @@ function User({ role }) {
         <div className="w-full flex justify-between items-center">
             <h5>Jhon Doe</h5>
             <h6>Role-{role}</h6>
-            <div>
+            <div className='flex items-center justify-center gap-x-[5px]'>
                 <Android12Switch />
+                <MdOutlineModeEdit />
+                <BsThreeDotsVertical />
             </div>
         </div>
     )
