@@ -10,7 +10,7 @@ import NewRoleOrEdit from "./components/Role/NewRoleOrEdit";
 
 function App() {
 
-    const router = createBrowserRouter([
+    const router = createBrowserRouter([ 
         {
             path: "/",
             element: <Home />,
